@@ -5,8 +5,8 @@ img = cv2.imread('puerta.png')
 
 # Seleccionar los dos puntos
 #Línea amarilla
-p1 = (137, 190)
-p2 = (137, 310)
+p1 = (138, 190)
+p2 = (138, 310)
 #Línea cyan
 p3 = (123, 144)
 p4 = (123, 310)
@@ -18,14 +18,14 @@ p7 = (175, 310)
 p8 = (100, 310)
 
 # Dibujar los puntos en la imagen
-cv2.circle(img, p1, 5, (0, 0, 255), -1)
-cv2.circle(img, p2, 5, (0, 0, 255), -1)
+cv2.circle(img, p1, 5, (0, 149, 196), -1)
+cv2.circle(img, p2, 5, (0, 149, 196), -1)
 
-cv2.circle(img, p3, 5, (0, 0, 255), -1)
-cv2.circle(img, p4, 5, (0, 0, 255), -1)
+cv2.circle(img, p3, 5, (143, 102, 11), -1)
+cv2.circle(img, p4, 5, (143, 102, 11), -1)
 
-cv2.circle(img, p5, 5, (0, 0, 255), -1)
-cv2.circle(img, p6, 5, (0, 0, 255), -1)
+cv2.circle(img, p5, 5, (55, 185, 33), -1)
+cv2.circle(img, p6, 5, (55, 185, 33), -1)
 
 cv2.circle(img, p7, 5, (0, 0, 255), -1)
 cv2.circle(img, p8, 5, (0, 0, 255), -1)
